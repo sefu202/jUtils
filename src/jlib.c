@@ -127,7 +127,7 @@ char itoa_formated(const char *format, int in, char *out)
 }
 
 #define LTOA_FORMATED_BUFFER_SIZE 10
-char itoa_formated(const char *format, long in, char *out)
+char ltoa_formated(const char *format, long in, char *out)
 {
 	if (out == NULL) {
 		return -1;
